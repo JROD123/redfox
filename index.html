@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <title>RedFox</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row h-100">
+        <div class="row-mobileHeader">
+          <div class="col-12 col-lg-6">
+            <h1 class="covidHeader">PROJECT</h1>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h1 class="nineteenHeader">VULPES</h1>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 h-100">
+          <model-viewer
+              src="3D/Fox.glb"
+              auto-rotate
+              camera-controls
+              camera-orbit="-20deg 95deg 6m"
+              shadow-intensity="2.2"
+              shadow-softness="0.9"
+              exposure="0.3"
+              loading="eager"
+              id="reveal"
+              
+            ></model-viewer>
+            <h6>Click and drag for 3D interactive experience</h6>
+          
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row">
+            <h1 class="desktopHeader">PROJECT VULPES</h1>
+          </div>
+
+          <p class="taxon"><b>TAXONOMY:</b> Vulpes vulpes Linn</p>
+          <p class="order"><b>ORDER:</b> Carnivora</p>
+          <p class="class"><b>CLASS:</b> Mammal</p>
+          <p class="class">
+            <b>PREDATORS:</b> Gray wolves, Lynx, Mountain lions, Bobcats,
+            Coyotes
+          </p>
+        </div>
+        <div class="col-12">
+          <h2>General</h2>
+          <p>
+            The red fox is the largest of the true foxes and one of the most
+            widely distributed members of the order Carnivora, being present
+            across the entire Northern Hemisphere including most of North
+            America, Europe and Asia, plus parts of North Africa.
+          </p>
+          <h2>Dimensions</h2>
+          <p>
+            Red foxes are the largest species of the genus Vulpes. However,
+            relative to dimensions, red foxes are much lighter than similarly
+            sized dogs of the genus Canis. Their limb bones, for example, weigh
+            30 percent less per unit area of bone than expected for similarly
+            sized dogs. They display significant individual, sexual, age and
+            geographical variation in size. On average, adults measure 14–20
+            inches high at the shoulder and 18–35 inches in body length with
+            tails measuring 11.8–21.9 inches. Ears measure 3–5 inches and the
+            hind feet 5–7 inches. Weights range from 5–31 lb, with vixens
+            typically weighing 15–20% less than males.
+          </p>
+          <h2>Behavior</h2>
+          <p>
+            Red foxes either establish stable home ranges within particular
+            areas or are itinerant with no fixed abode. Red foxes live in family
+            groups sharing a joint territory. In favourable habitats and/or
+            areas with low hunting pressure, subordinate foxes may be present in
+            a range. Subordinate foxes may number one or two, sometimes up to
+            eight in one territory. These subordinates could be formerly
+            dominant animals, but are mostly young from the previous year, who
+            act as helpers in rearing the breeding vixen's kits. Red foxes may
+            leave their families once they reach adulthood if the chances of
+            winning a territory of their own are high. If not, they will stay
+            with their parents, at the cost of postponing their own
+            reproduction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="icon-row">
+      <p class="p-footerInfo">
+        Information cited from
+        <a
+          class="wikiLink"
+          href="https://en.wikipedia.org/wiki/Red_fox"
+          target="_blank"
+          >wikipedia.org</a
+        >
+      </p>
+      <p class="p-footerName">©Jason Rodriguez, 2021</p>
+    </div>
+  </footer>
+</html>
